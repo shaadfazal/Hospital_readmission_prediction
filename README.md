@@ -1,6 +1,6 @@
 # Hospital Readmission Prediction Project
 
-Predicting hospital readmissions using the diabetic dataset, leveraging advanced machine learning models and interpretation techniques. The project covers comprehensive data preprocessing, model training and evaluation, and detailed feature importance analysis using SHAP (SHapley Additive exPlanations).
+Predicting hospital readmissions using the diabetic dataset, leveraging advanced machine learning models and interpretation techniques. The project covers comprehensive data preprocessing, model training and evaluation, and detailed feature importance analysis using SHAP (SHapley Additive exPlanations). The code is contained in the jupyter notebook titled, 'hospital_readmission_project.ipynb'. The dataset file is also uploaded as a csv file titled, 'diabetic_data.csv' obtained from kaggle https://www.kaggle.com/code/abbasjafary/hospital-readmission-prediction.
 
 ## 🚀 **Project Overview**
 The goal of this project is to build a predictive model that determines whether a patient will be readmitted to the hospital within 30 days. The workflow involves:
