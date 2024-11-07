@@ -70,3 +70,4 @@ The goal of this project is to build a predictive model that determines whether 
 2. Install the required libraries using:
    ```bash
    pip install pandas numpy scikit-learn xgboost lightgbm shap matplotlib
+Authors: Shaad Fazal & Dilara Fahmida Islam
