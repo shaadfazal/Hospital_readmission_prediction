@@ -22,7 +22,7 @@ The goal of this project is to build a predictive model that determines whether 
 ---
 
 ### 2. **Model Training and Evaluation**
-- **XGBoost Model**: Used as a primary classifier. Performance metrics like accuracy, precision, recall, and F1-score are calculated.
+- **Catboost Model**: Used as a primary classifier. Performance metrics like accuracy, precision, recall, and F1-score are calculated.
 - **LightGBM Model**: Another gradient boosting model is explored for its efficiency.
 - **Evaluation Metrics**: Detailed classification reports and visualizations are generated, including:
   - **Accuracy**: The overall correctness of the model.
