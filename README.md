@@ -80,14 +80,24 @@ To deploy this project seamlessly, we've Dockerized it. Here's how to get starte
    ```bash
    git clone https://github.com/shaadfazal/hospital_readmission_project.git
    cd hospital_readmission_project
-Build the Docker image:
+## 📦 **Docker Deployment**
 
+To deploy this project seamlessly, we've Dockerized it. Here's how to get started with the Dockerized version of the project:
+
+### Docker Setup and Usage
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/shaadfazal/hospital_readmission_project.git
+cd hospital_readmission_project
+
+# 2. Build and run the Docker container
 docker build -t hospital-readmission .
-Run the Docker container: To launch the project in a Docker container with Jupyter Notebook:
-
 docker run -it -p 8888:8888 hospital-readmission
-After running this, you will be able to access the Jupyter Notebook via your browser at:
 
+# 3. Access Jupyter Notebook
+# After running the container, open the following URL in your browser:
 http://127.0.0.1:8888/tree?token=your_generated_token
+
 
 Authors: Shaad Fazal & Dilara Fahmida Islam
