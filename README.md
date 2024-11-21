@@ -70,4 +70,24 @@ The goal of this project is to build a predictive model that determines whether 
 2. Install the required libraries using:
    ```bash
    pip install pandas numpy scikit-learn xgboost lightgbm shap matplotlib
+
+## 📦 **Docker Deployment**
+
+To deploy this project seamlessly, we've Dockerized it. Here's how to get started with the Dockerized version of the project:
+
+### Docker Image
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/shaadfazal/hospital_readmission_project.git
+   cd hospital_readmission_project
+Build the Docker image:
+
+docker build -t hospital-readmission .
+Run the Docker container: To launch the project in a Docker container with Jupyter Notebook:
+
+docker run -it -p 8888:8888 hospital-readmission
+After running this, you will be able to access the Jupyter Notebook via your browser at:
+
+http://127.0.0.1:8888/tree?token=your_generated_token
+
 Authors: Shaad Fazal & Dilara Fahmida Islam
